@@ -14,7 +14,7 @@ namespace MagicVilla_Web.Services
                                                                                                             //al definir el VillaService
         {
             _httpClient = httpClient;
-            _villaUrl = configuration.GetValue<string>("https://localhost:7001/"); //Aqui obtiene la URL para la API
+            _villaUrl = configuration.GetValue<string>("ServiceUrls:API_URL"); //Aqui obtiene la URL para la API
         }
         public Task<T> Actualizar<T>(VillaUpdateDto dto)
         {
@@ -50,7 +50,7 @@ namespace MagicVilla_Web.Services
             return SendAsync<T>(new APIRequest()
             {
                 APITipo = DS.APITipo.GET,
-                Url = _villaUrl + "api/Villa/"
+                Url = _villaUrl + "api/Villa"
             });
         }
 

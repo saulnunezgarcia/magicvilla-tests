@@ -28,13 +28,13 @@ namespace MagicVilla_Web.Services
             {
                 var client = _httpClient.CreateClient("MagicAPI"); //Este el servicio 
                 HttpRequestMessage message = new HttpRequestMessage();
-                message.Headers.Add("Message", "application/json"); //Se van a trabajar con requisitos Json
+                message.Headers.Add("Accept", "application/json"); //Se van a trabajar con requisitos Json
                 message.RequestUri = new Uri(apiRequest.Url); //Obtiene la URL con la que se va a conectar 
 
                 if (apiRequest.Datos != null) //diferente de null es un post o  put por lo que necesitas enviarle el contenido
                 {
                     //Se convierte el mensaje a formato .Json 
-                    message.Content = new StringContent(JsonConvert.SerializeObject(apiRequest.Datos), Encoding.UTF8, "applitcation/json");
+                    message.Content = new StringContent(JsonConvert.SerializeObject(apiRequest.Datos), Encoding.UTF8, "application/json");
                 }
 
                 switch (apiRequest.APITipo) //Se verifica el tipo de request con la que se va a trabajar 

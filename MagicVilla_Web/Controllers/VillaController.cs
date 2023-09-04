@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using MagicVilla_API.Modelos;
+using MagicVilla_Utilidad;
 using MagicVilla_Web.Models.DTO;
 using MagicVilla_Web.Services.IServices;
 using Microsoft.AspNetCore.Mvc;
@@ -20,14 +21,16 @@ namespace MagicVilla_Web.Controllers
 
         public async Task<IActionResult> IndexVilla()
         {
+
             List<VillaDto> villaList = new();
 
             var response = await _villaService.ObtenerTodos<APIResponse>();
 
-            if (response != null && response.IsExitoso) {
+            if (response != null && response.IsExitoso)
+            {
                 villaList = JsonConvert.DeserializeObject<List<VillaDto>>(Convert.ToString(response.Resultado));
             }
-             
+
             return View(villaList);
         }
     }
