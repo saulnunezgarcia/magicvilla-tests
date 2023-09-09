@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sury_\\Desktop\\.Net\\Web Apis\\MagicVilla\\MagicVilla_Web\\MagicVilla_Web.csproj": {}
+    "C:\\Users\\sury_\\Documents\\GitHub\\MagicVilla\\magicvilla-tests\\MagicVilla_Web\\MagicVilla_Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sury_\\Desktop\\.Net\\Web Apis\\MagicVilla\\MagicVilla_Utilidad\\MagicVilla_Utilidad.csproj": {
+    "C:\\Users\\sury_\\Documents\\GitHub\\MagicVilla\\magicvilla-tests\\MagicVilla_Utilidad\\MagicVilla_Utilidad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sury_\\Desktop\\.Net\\Web Apis\\MagicVilla\\MagicVilla_Utilidad\\MagicVilla_Utilidad.csproj",
+        "projectUniqueName": "C:\\Users\\sury_\\Documents\\GitHub\\MagicVilla\\magicvilla-tests\\MagicVilla_Utilidad\\MagicVilla_Utilidad.csproj",
         "projectName": "MagicVilla_Utilidad",
-        "projectPath": "C:\\Users\\sury_\\Desktop\\.Net\\Web Apis\\MagicVilla\\MagicVilla_Utilidad\\MagicVilla_Utilidad.csproj",
+        "projectPath": "C:\\Users\\sury_\\Documents\\GitHub\\MagicVilla\\magicvilla-tests\\MagicVilla_Utilidad\\MagicVilla_Utilidad.csproj",
         "packagesPath": "C:\\Users\\sury_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sury_\\Desktop\\.Net\\Web Apis\\MagicVilla\\MagicVilla_Utilidad\\obj\\",
+        "outputPath": "C:\\Users\\sury_\\Documents\\GitHub\\MagicVilla\\magicvilla-tests\\MagicVilla_Utilidad\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sury_\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\sury_\\Desktop\\.Net\\Web Apis\\MagicVilla\\MagicVilla_Web\\MagicVilla_Web.csproj": {
+    "C:\\Users\\sury_\\Documents\\GitHub\\MagicVilla\\magicvilla-tests\\MagicVilla_Web\\MagicVilla_Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sury_\\Desktop\\.Net\\Web Apis\\MagicVilla\\MagicVilla_Web\\MagicVilla_Web.csproj",
+        "projectUniqueName": "C:\\Users\\sury_\\Documents\\GitHub\\MagicVilla\\magicvilla-tests\\MagicVilla_Web\\MagicVilla_Web.csproj",
         "projectName": "MagicVilla_Web",
-        "projectPath": "C:\\Users\\sury_\\Desktop\\.Net\\Web Apis\\MagicVilla\\MagicVilla_Web\\MagicVilla_Web.csproj",
+        "projectPath": "C:\\Users\\sury_\\Documents\\GitHub\\MagicVilla\\magicvilla-tests\\MagicVilla_Web\\MagicVilla_Web.csproj",
         "packagesPath": "C:\\Users\\sury_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sury_\\Desktop\\.Net\\Web Apis\\MagicVilla\\MagicVilla_Web\\obj\\",
+        "outputPath": "C:\\Users\\sury_\\Documents\\GitHub\\MagicVilla\\magicvilla-tests\\MagicVilla_Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sury_\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -84,8 +84,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\sury_\\Desktop\\.Net\\Web Apis\\MagicVilla\\MagicVilla_Utilidad\\MagicVilla_Utilidad.csproj": {
-                "projectPath": "C:\\Users\\sury_\\Desktop\\.Net\\Web Apis\\MagicVilla\\MagicVilla_Utilidad\\MagicVilla_Utilidad.csproj"
+              "C:\\Users\\sury_\\Documents\\GitHub\\MagicVilla\\magicvilla-tests\\MagicVilla_Utilidad\\MagicVilla_Utilidad.csproj": {
+                "projectPath": "C:\\Users\\sury_\\Documents\\GitHub\\MagicVilla\\magicvilla-tests\\MagicVilla_Utilidad\\MagicVilla_Utilidad.csproj"
               }
             }
           }

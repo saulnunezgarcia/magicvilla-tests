@@ -4136,11 +4136,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sury_\\Desktop\\.Net\\Web Apis\\MagicVilla\\MagicVilla_API\\MagicVilla_API.csproj",
+      "projectUniqueName": "C:\\Users\\sury_\\Documents\\GitHub\\MagicVilla\\magicvilla-tests\\MagicVilla_API\\MagicVilla_API.csproj",
       "projectName": "MagicVilla_API",
-      "projectPath": "C:\\Users\\sury_\\Desktop\\.Net\\Web Apis\\MagicVilla\\MagicVilla_API\\MagicVilla_API.csproj",
+      "projectPath": "C:\\Users\\sury_\\Documents\\GitHub\\MagicVilla\\magicvilla-tests\\MagicVilla_API\\MagicVilla_API.csproj",
       "packagesPath": "C:\\Users\\sury_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sury_\\Desktop\\.Net\\Web Apis\\MagicVilla\\MagicVilla_API\\obj\\",
+      "outputPath": "C:\\Users\\sury_\\Documents\\GitHub\\MagicVilla\\magicvilla-tests\\MagicVilla_API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sury_\\AppData\\Roaming\\NuGet\\NuGet.Config",
